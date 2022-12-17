@@ -85,4 +85,64 @@ h2{
 a{
     margin-left: 5%;
 }
+a:hover > h2{
+    color: gold;
+}
+.bottom{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
 
+.bottom > div> h1,h3{
+    color: white;
+    
+}
+
+.bottom > div{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.reg{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    display: block;
+    justify-content: center;
+    width: 35%;
+    height: 60%;
+}
+
+#z{
+    display: flex;
+    justify-content: end;
+}
+
+#z > h2{
+    color: black;
+    margin-right: 5%;
+}
+
+.container >img{
+    width: 50%;
+    height: 40%;
+    margin-left: 22%;
+}
+
+.container > h1{
+    margin-left: 35%;;
+}
+
+
+input{
+    width: 90%;
+    box-sizing: border-box;
+}
