@@ -16,3 +16,7 @@ function yesclick(element){
 function reg(){
     document.getElementsByClassName("reg")[0].style.display = "flex";
 }
+
+function game(){
+    document.getElementsByTagName("html").style.backgroundColor ="black";
+}

@@ -17,7 +17,8 @@ body{
     justify-content: center;
 }
 .v{ 
-    margin-top: 5%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,8 +28,8 @@ body{
 .video{
     border-style: solid;
     border-color: yellow;
-    width: 90%;
-    height: 80%;
+    width: 80%;
+    height: 69%;
 }
 nav{
     width: 95%;
@@ -90,7 +91,7 @@ a:hover > h2{
     color: gold;
 }
 .bottom{
-    margin-top: 10%;
+    margin-top: 1%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,11 +110,12 @@ a:hover > h2{
 
 .reg{
     margin: 0;
-    width: 100%;
+    width:  80%;
     height: 70%;
     display: flex;
     justify-content: center;
     position: absolute;
+    margin-bottom: 8%;
     
 }
 .container{
@@ -176,4 +178,71 @@ input{
 
 .reg{
     display: none;
+}
+
+.fp{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+#fpa{
+    width: 50%;
+    height: 100%;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fpa > div> h1{
+    color: brown;
+}
+
+#fpb{
+    width: 50%;
+    height: 100%;
+    background-image: url(img/gb.png);
+}
+
+.gameInfo{
+    width: 100%;
+    height: 220%;
+    display: flex;
+   justify-content: center;
+   margin-top: 5%;
+}
+
+.gg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.gameInfo > div{
+    width: 80%;
+    margin-top: 5%;
+}
+.gameInfo > div > .gg > div > h1{
+    color: gold;
+}
+
+.gameInfo > div > .gg > div{
+    display: block;
+    justify-content: center;
+    /* align-items: center; */
+    margin-right: 10%;
+}
+
+.gameInfo > div > .gg > div > h3{
+    font-style:unset;
+}
+p{
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
 }
