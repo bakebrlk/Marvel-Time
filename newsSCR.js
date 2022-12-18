@@ -12,3 +12,7 @@ function yesclick(element){
     $('#oldest').css('color', 'white');
 
 }
+
+function reg(){
+    document.getElementsByClassName("reg")[0].style.display = "flex";
+}

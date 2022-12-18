@@ -21,6 +21,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .video{
@@ -112,6 +113,7 @@ a:hover > h2{
     height: 70%;
     display: flex;
     justify-content: center;
+    position: absolute;
     
 }
 .container{
@@ -158,6 +160,7 @@ input{
     margin-left: 15%;
     border-color: rgb(220, 220, 220);
     border: solid;
+    position:relative;
 }
 
 .yy{
