@@ -122,21 +122,21 @@ a{
 #i1{
     width: 500px;
     height: 380px;
-    margin-left: 100px;
+    margin-left: 30%;
     margin-top: 30px;
     border-radius: 20%;
 }
 #i2{
     width: 500px;
     height: 380px;
-    margin-left: 100px;
+    margin-left: 30%;
     margin-top: 30px;
     border-radius: 20%;
 }
 #i3{
     width: 500px;
     height: 380px;
-    margin-left: 100px;
+    margin-left: 30%;
     margin-top: 30px;
     border-radius: 20%;
 }
@@ -154,12 +154,12 @@ a{
 
     
     padding-top: 7%;
-    margin-left: 30%;
+    margin-left: 28%;
     color: aliceblue;
     font-weight: bold;
     border-radius: 2%;
     font-size: 150%;
-    width: 30%;
+    width: 40%;
     
     height: 6%;
     display: flex;
@@ -169,12 +169,32 @@ a{
 }
 #news1{
     justify-content: space-between;
+    display:flex;
+}
+#news1_2{
+    visibility: hidden;
+    display: none;
+}
+#news2_2{
+    visibility: hidden;
+    display: none;
+}
+#news3_2{
+    visibility: hidden;
+    display: none;
+}
+#news2{
+    justify-content: space-between;
+    display: flex;
+}
+#news3{
+    justify-content: space-between;
     display: flex;
 }
 #sozlar1{
     width: 400px;
     height: 350px;
-    margin-left: -100px;
+    margin-left: 0%;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 120px;
@@ -185,10 +205,25 @@ a{
     background: url(/img/groot.jpg) no-repeat;
     background-size:cover;
 }
+#sozlar1_2{
+ 
+    width: 400px;
+    height: 350px;
+    margin-left: 15%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/ironManback.jpg) no-repeat;
+    background-size:cover;
+}
 #sozlar2{
     width: 400px;
     height: 350px;
-    margin-left: -100px;
+    margin-left: 0%;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 120px;
@@ -197,6 +232,20 @@ a{
     border-radius: 20%;
     color: aliceblue;
     background: url(/img/wakandaaa.png) no-repeat;
+    background-size:cover;
+}
+#sozlar2_2{
+    width: 400px;
+    height: 350px;
+    margin-left: 0%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/spiderBack2.jpg) no-repeat;
     background-size:cover;
 }
 #sozlar3{
@@ -211,5 +260,19 @@ a{
     border-radius: 20%;
     color: aliceblue;
     background: url(/img/backhulk.jpg) no-repeat;
+    background-size:cover;
+}
+#sozlar3_2{
+    width: 400px;
+    height: 350px;
+    margin-left: -100px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/pullback.jpg) no-repeat;
     background-size:cover;
 }
