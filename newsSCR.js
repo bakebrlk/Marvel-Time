@@ -249,3 +249,24 @@ function an(element){
         width: "-=25px", height: "-=25px"
     },"slow");
 }
+
+var count = 0;
+
+function sld(element){
+    var x = '#' + element;
+    $(x).hide(1000);
+    count -=1;
+    
+    if(count ==0 ){
+        $('#kino').hide(500);
+    }
+}
+
+function sls(element){
+    document.getElementById('kino').style.display = "block";
+    document.getElementById(element).style.display = "flex";
+    var x = '#' + element;
+    $(x).hide(0);
+    $(x).show(900);
+    count += 1;
+}

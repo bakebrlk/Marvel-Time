@@ -246,3 +246,287 @@ p{
 a{
     text-decoration: none;
 }
+.fp{
+    display: flex;
+    justify-content: center;
+}
+
+.fp > img{
+    margin-top: 6%;
+   width: 100%;
+   height: 140%;
+}
+.ui{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ui > div > h1{
+    text-align: center;
+    font-size: 350%
+}
+
+.hj{
+    width: 100%;
+    height: 60%;
+    background-color: darkred;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#kino{
+    width: 100%;
+    height: 60%;
+    display: none;
+}
+#m1k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m1b.png);
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#m1k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m1k > div > img{
+    margin-left: 9%;
+}
+
+#m2k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m2b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m2k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m2k > div > img{
+    margin-left: 9%;
+}
+
+#m3k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m3b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m3k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m3k > div > img{
+    margin-left: 9%;
+}
+
+#m4k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m4b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m4k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m4k > div > img{
+    margin-left: 9%;
+}
+
+#m5k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m5b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m5k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m5k > div > img{
+    margin-left: 9%;
+}
+
+#m6k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m6b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m6k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m6k > div > img{
+    margin-left: 9%;
+}
+
+#m7k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m7b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m7k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m7k > div > img{
+    margin-left: 9%;
+}
+
+#m8k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m8b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m8k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m8k > div > img{
+    margin-left: 9%;
+}
+
+#m9k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m9b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m9k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m9k > div > img{
+    margin-left: 9%;
+}
+
+#m10k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m10b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m10k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m10k > div > img{
+    margin-left: 9%;
+}
