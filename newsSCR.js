@@ -60,7 +60,7 @@ function yesclick(element){
     $('#weekago').css('color', 'white');
     $('#oldest').css('color', 'white');
 
-<<<<<<< HEAD
+
     // $('#news1').css('visibility', 'hidden');
     // $('#news1').css('display', 'none');
     
@@ -222,7 +222,7 @@ function facebook(){
 }
 function twitter(){
     window.location.href ="http://127.0.0.1:5500/laslab4.html";
-=======
+
 }
 
 function reg(){
@@ -231,5 +231,21 @@ function reg(){
 
 function game(){
     document.getElementsByTagName("html").style.backgroundColor ="black";
->>>>>>> 73366b320cb479f0ac1761ded6e31cc63e6199ce
+
+}
+
+function ani(element){
+    var x = "#"+ element;
+    $(x).animate({
+
+        width: "+=25px", height: "+=25px"
+    },"slow");
+
+}
+
+function an(element){
+    var x = "#" +element;
+    $(x).animate({
+        width: "-=25px", height: "-=25px"
+    },"slow");
 }
