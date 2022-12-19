@@ -140,6 +140,13 @@ a{
     margin-top: 30px;
     border-radius: 20%;
 }
+#i4{
+    width: 500px;
+    height: 380px;
+    margin-left: 30%;
+    margin-top: 30px;
+    border-radius: 20%;
+}
 #i1div{
 
 }
@@ -151,7 +158,7 @@ a{
 #choice{
     text-align: center;
     justify-content: space-around;
-
+    cursor:grab;
     
     padding-top: 7%;
     margin-left: 28%;
@@ -175,11 +182,11 @@ a{
     visibility: hidden;
     display: none;
 }
-#news2_2{
+#news1_3{
     visibility: hidden;
     display: none;
 }
-#news3_2{
+#news1_4{
     visibility: hidden;
     display: none;
 }
@@ -187,10 +194,69 @@ a{
     justify-content: space-between;
     display: flex;
 }
+#news2_2{
+    visibility: hidden;
+    display: none;
+}
+#news2_3{
+    visibility: hidden;
+    display: none;
+}
+#news2_4{
+    visibility: hidden;
+    display: none;
+}
 #news3{
     justify-content: space-between;
     display: flex;
 }
+#news3_2{
+    visibility: hidden;
+    display: none;
+}
+#news3_3{
+    visibility: hidden;
+    display: none;
+}
+#news3_4{
+    visibility: hidden;
+    display: none;
+}
+
+#news4{
+    justify-content: space-between;
+    display: flex;
+}
+#news4_2{
+    visibility: hidden;
+    display: none;
+}
+#news4_3{
+    visibility: hidden;
+    display: none;
+}
+#news4_4{
+    visibility: hidden;
+    display: none;
+}
+#news5{
+    justify-content: space-between;
+    display: flex;
+}
+#news5_2{
+    visibility: hidden;
+    display: none;
+}
+#news5_3{
+    visibility: hidden;
+    display: none;
+}
+#news5_4{
+    visibility: hidden;
+    display: none;
+}
+
+
 #sozlar1{
     width: 400px;
     height: 350px;
@@ -201,9 +267,10 @@ a{
     margin-right: 250px;
     margin-top: 25px;
     border-radius: 20%;
-    color: aliceblue;
+    color: wheat;
     background: url(/img/groot.jpg) no-repeat;
     background-size:cover;
+    
 }
 #sozlar1_2{
  
@@ -218,6 +285,37 @@ a{
     border-radius: 20%;
     color: aliceblue;
     background: url(/img/ironManback.jpg) no-repeat;
+    background-size:cover;
+}
+
+#sozlar1_3{
+ 
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/visionBack.jpg) no-repeat;
+    background-size:cover;
+}
+#sozlar1_4{
+ 
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/thanosBack.jpg) no-repeat;
     background-size:cover;
 }
 #sozlar2{
@@ -248,6 +346,35 @@ a{
     background: url(/img/spiderBack2.jpg) no-repeat;
     background-size:cover;
 }
+#sozlar2_3{
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/fan4Back.jpg) no-repeat;
+    background-size:cover;
+}
+#sozlar2_4{
+    width: 400px;
+    height: 350px;
+    margin-left: 0%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/captainMArvelBack.jpeg) no-repeat;
+    background-size:cover;
+}
+
 #sozlar3{
     width: 400px;
     height: 350px;
@@ -262,6 +389,7 @@ a{
     background: url(/img/backhulk.jpg) no-repeat;
     background-size:cover;
 }
+
 #sozlar3_2{
     width: 400px;
     height: 350px;
@@ -275,4 +403,211 @@ a{
     color: aliceblue;
     background: url(/img/pullback.jpg) no-repeat;
     background-size:cover;
+}
+#sozlar3_3{
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/ukazalBack.jpg) no-repeat;
+    background-size:cover;
+}
+#sozlar3_4{
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/thornBack.jpeg) no-repeat;
+    background-size:cover;
+}
+
+#sozlar4{
+    width: 400px;
+    height: 350px;
+    margin-left: 0%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/docto\ tor\ bac.jpg) no-repeat;
+    background-size:cover;
+}
+
+#sozlar4_2{
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/antBack.jpg) no-repeat;
+    background-size:cover;
+}
+#sozlar4_3{
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/BlackBack.jpg) no-repeat;
+    background-size:cover;
+}
+#sozlar4_4{
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: aliceblue;
+    background: url(/img/tobeyBack.jpg) no-repeat;
+    background-size:cover;
+}
+
+#sozlar5{
+    width: 400px;
+    height: 350px;
+    margin-left: 0%;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color: black;
+    background: url(/img/jenna\ back.jpg) no-repeat;
+    background-size:cover;
+}
+
+#sozlar5_2{
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color:white;
+    background: url(/img/TomHBAck.png) no-repeat;
+    background-size:cover;
+}
+#sozlar5_3{
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color:white;
+    background: url(/img/loganBack.jpg) no-repeat;
+    background-size:cover;
+}
+#sozlar5_4{
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 120px;
+    margin-right: 250px;
+    margin-top: 25px;
+    border-radius: 20%;
+    color:white;
+    background: url(/img/strangeBack.jpg) no-repeat;
+    background-size:cover;
+}
+
+#jenn{
+    color: black;
+}
+
+#tomh2{
+    padding-top: -20px;
+    padding-right: 130px;
+}
+
+#tomp2{
+    padding-top: -20px;
+    padding-right: 150px;
+}
+
+#last{
+    margin-top: 3%;
+    width: 100%;
+    height: 80%;
+    background-color: gray;
+    background: url(/img/number2.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+ 
+}
+#icons{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.brdei{
+    width: 5%;
+    height: 5%;
+}
+.brdei:hover{
+    width: 7%;
+    height: 7%;
+}
+#youtube{
+    border-radius: 10%;
+}
+#bolek{
+    width: 6%;
+    height: 5%;
+}
+#bolek:hover{
+    width: 8%;
+    height: 6.5;
+}
+#ast{
+
+    color: gray;
+    margin-top: -30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
 }

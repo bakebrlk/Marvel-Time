@@ -1,0 +1,28 @@
+html{
+    background: url(/img/marvelActor.png)no-repeat;
+    background-size: cover;
+}
+#div1{
+   
+    border-radius: 15%;
+    display: flex;
+    width: 40%;
+    height: 5%;
+}
+#im1{
+    width: 50%;
+    height: 50%;
+    border-radius: 15%;
+}
+#more1{
+   
+    width: 100%;
+    margin: 10% 10% 10% 10%;
+    
+}
+#outmore1{
+    border-radius: 15%;
+    width: 90%;
+    height: 4%;
+    background-color:gold;
+}
