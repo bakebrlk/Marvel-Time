@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" href="img/m.png">
 
 </head>
-<body>
+<body id="body" onmouseover="bodyover()">
 
 	<div id="ll">
 		<nav>
@@ -29,7 +29,7 @@
 
 			<div id="kk">
 				<div>
-				<a onclick="reg()"><h2 onclick="reg()">Sing up</h2></a>
+				<a id="dddd"><h2 id="idname" onclick="reg()">Sing up</h2></a>
 				</div>
 			</div>
 		</nav>
@@ -40,13 +40,14 @@
 				
 				
 				<video class="video"  autoplay muted>
-				<source src="img/gg1.mp4" type="video/ogg">
+				<source src="img/gg.mp4" type="video/ogg">
 				</video>
 				
-				<div class = "reg">
+				<div class = "reg" id="reg">
+					<form action="Register.php" method="post" name="forma">
 					<div class="container">
 					
-						<div id="z"><h2>x</h2></div>
+						<div id="z"><h2 style="cursor: pointer;" id="closeBB">x</h2></div>
 		
 						<img src="img/marvel.png">
 						
@@ -54,17 +55,19 @@
 						<h1>SIGN IN</h1>
 		
 						<div class="kl">
-							<input id="email" type="email" placeholder ="Enter email" name="email"><br>
+							
+							<input id="email" type="email" placeholder ="Enter email" name="email" onchange="changeName()"><br>
 							<input id = "password" type="password" placeholder = "Enter password" name = password><br>
-							<input id = "submit" type="submit" placeholder="Submit" name = "submit"><br>
+							<input id = "submit" type="submit" placeholder="Submit" name = "submit" ><br>
 		
 						</div>
 						
-						<div class="yy">
-							<input type="submit" value="create account" id="cr" name="cr">
-						</div>
-					</div>
+						
+					</div></form>
 				</div>
+
+				
+
 			</div>
 
 			
