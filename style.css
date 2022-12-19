@@ -530,3 +530,146 @@ a{
 #m10k > div > img{
     margin-left: 9%;
 }
+#iok{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+#iok > img{
+    width: 90%;
+    height: 100%;
+}
+
+#ior{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#ior> div{
+    width: 70%;
+    height: 100%;
+}
+
+#ior >div> h1,h3{
+    text-align: center;
+}
+
+#comic1{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/combac1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#comic1 > div{
+    width: 50%;
+    height: 80%;
+    margin-right: 2%;
+}
+#jklo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#cms1{
+    width: 400px;
+    height: 420px;
+}
+#comic1 > div > h1{
+    color: gold;
+}
+#comic1 > div > h2{
+    color:brown;
+}
+
+#comic2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/commic2bac.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 2%;
+}
+
+#comic2 > div{
+width: 50%;
+height: 70%;
+margin-right: 8%;
+}
+
+#comic2 > div > h1,h2,h3{
+    text-align: center;
+    
+}
+
+#ghf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#comic2 > div > h1{
+    color: gold;
+}
+#comic2 > div > h2{
+    color: brown;
+}
+
+#comic3{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/commbac3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 2%;
+}
+
+#comic3 > div{
+    width: 50%;
+    height: 70%;
+    margin-right: 8%;
+}
+
+#imgccc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgccc > img{
+    width: 300px;
+    height: 400px;
+}
+
+#comic3 > div > h1{
+    color: gold;
+    text-align: center;
+}
+
+#comic3 > div > h3{
+    color: brown;
+    font-size: 150%;
+}
+
+#comic3 > div > a{
+    font-size: 130%;
+    color:black;
+}
