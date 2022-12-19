@@ -673,3 +673,208 @@ margin-right: 8%;
     font-size: 130%;
     color:black;
 }
+
+@media screen and (max-width: 412px){
+    #jj{
+        width: 270%;
+    }
+
+    .navbutton1{
+        margin-left: 60px;
+        width: 80px;
+    }
+
+    #img1{
+        width: 60px;
+        padding-left: 0;
+    }
+
+    #jj > div > a, h2{
+        font-size: 90%;
+    }
+
+    #kk{
+        display: flex;
+        justify-content: start;
+    }
+    #kk > div {
+        width: 30px;
+    }
+    #kk > div > a{
+        width: 30px;
+    }
+    #kk > div >a > h2{
+        width: 30px;
+    }
+
+    .fp{
+        height: 25%;
+    }
+
+    #fpa > div > h1{
+        text-align: center;
+    }
+
+    #imge1{
+        width: 140px;
+        height: 100%;
+    }
+
+    .gg > div >h1{
+        font-size: 55%;
+    }
+    .gg > div >h2{
+        font-size: 55%;
+    }
+    .gg > div >h3{
+        font-size: 55%;
+    }
+    .gg > div >p{
+        font-size: 55%;
+    }
+    #img2{
+        width: 140px;
+        height: 100%;
+    }
+
+    #img3{
+        width: 140px;
+        height: 100%;
+    }
+
+    .gameInfo {
+        height: 700px;
+    }
+
+    .bottom{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom > div > img{
+        margin-top: 15px;
+        width: 90px;
+        height: 60px;
+    }
+
+    .bottom >div{
+        width: 30%;
+        height: 90%;
+    }
+    .bottom > div > h3{
+        font-size: 10px;
+    }
+
+    #comic1{
+        height: 40%;
+        background-color: black;
+    }
+
+    #cms1{
+        width: 130px;
+        height: 190px;
+        margin-top: 20px;
+    }
+
+    #comic1 > div > h1{
+        font-size: 100%;
+    }
+    #comic1 > div > h2{
+        font-size: 100%;
+        height: 50%;
+    }
+
+    #comic2{
+        height: 50%;
+    }
+
+    #ghf > img{
+        width: 200px;
+        height: 320px;
+    }
+
+    #comic2 > div > h1{
+        font-size: 100%;
+    }
+
+    #comic3{
+        height: 50%;
+    }
+
+    #imgccc > img{
+        width: 200px;
+        height: 300px;
+    }
+
+    #comic3 > div > h1{
+        font-size: 100%;
+        color: black;
+        background-color: aliceblue;
+    }
+
+    #comic3 > div > h3{
+        font-size: 100%;
+        color: aliceblue;
+    }
+}
+
+@media screen and (width: 820px) {
+    #jj{
+        width: 340%;
+    }
+
+    .navbutton1{
+        width: 140px;
+        margin-left: 95px;
+    }
+    #img1{
+        width: 120px;
+    }
+
+    #kk{
+        display: flex;
+        justify-content: center;
+    }
+
+    #kk > div{
+        width: 100px;
+    }
+
+    #fpa > div > h1{
+        text-align: center;
+    }
+
+    .gameInfo {
+        height: 1500px;
+    }
+
+    .gg > div > h1{
+        font-size: 130%;
+        width: 200px;
+    }
+    .gg > div > h2{
+        font-size: 70%;
+    }
+    .gg > div > h3{
+        font-size: 80%;
+    }
+    .gg > div > p{
+        font-size: 80%;
+    }
+
+    #comic1{
+        background-color: black;
+    }
+
+    #cms1{
+        margin-top: 50px;
+    }
+
+    #comic2{
+        background-color:rgb(97, 127, 245);
+    }
+
+}
