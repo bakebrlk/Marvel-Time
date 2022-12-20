@@ -449,3 +449,32 @@ a{
     margin-left: 28%;   
 }
 
+@media(max-width:820px){
+    #jj{
+        margin-left: 22%;
+    }
+    .navbutton1{
+        width: 60%;
+    }
+    #jj > div{
+        width: 400%;
+    }
+    .outside{
+        padding-top: 22%;
+    }
+    .floor1{
+        flex-wrap: wrap;
+        z-index: 0;
+        
+    }
+    #floor1{
+        height: 300px;
+    }
+    img{
+        width: 150px;
+        height: 185px;
+    }
+    #div1{
+        height: 100%;
+    }
+}
