@@ -891,9 +891,11 @@ margin-right: 8%;
     }
     .gg > div > h2{
         font-size: 70%;
+        background-color: aliceblue;
     }
     .gg > div > h3{
         font-size: 80%;
+        background-color: aliceblue;
     }
     .gg > div > p{
         font-size: 80%;
