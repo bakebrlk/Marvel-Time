@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/actorsDec.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -21,8 +22,8 @@
                     <a><h2 class="news">News</h2></a>
                     <a><h2 class="comics">Comics</h2></a>
                     <a><h2 class="movies"> Movies</h2></a>
-                    <a><h2 class="games">Games</h2></a>
-                    <a><h2 class="more">more</h2></a>
+                    <a id="gms" href="/games.html"><h2 class="games">Games</h2></a>
+                    <a><h2 class="more">heroes and actors</h2></a>
                     </div>
                 </div>
                 
@@ -32,9 +33,67 @@
         </div>
         </div>
 
-    <div id="div1">
-    <img id="im1" src="/img/TONYSTARK.jpg" alt="" height="150px">
-    <div id="outmore1"><div id="more1">ghjmfhmjjsinfodojMarvel Insiders are rewarded for being Marvel fans. Joining is easy. Then get points for the things you already do! Everything from playing Marvel games to watching videos and reading articles on Marvel.com to buying digital comics and so much more!</div>
-    </div></div>
+
+    <div class="outside">
+       <div id="floor1">
+            <div id="div1"><img onclick="ash1()" id="sur1" src="/img/HIIRON.jpg" alt="" width="300px" height="350px"><img onclick="ash11()" id="sur1_2" src="/img/HITONY.jpg" alt="" width="300px" height="350px">
+                <h3 id="at1">Toni Stark/Iron Man</h3><h3 id="at1_2">Robert Downey Jr</h3>
+            </div>
+            <div id="div1"><img onclick="ash2()" id="sur2" src="/img/HISPider.jpg" alt="" width="300px" height="350px"><img onclick="ash22()" id="sur2_2" src="/img/HITOBEY.jpg" alt="" width="300px" height="350px"><img onclick="ash23()" id="sur2_3" src="/img/HIANDREW.jpg" alt="" width="300px" height="350px"><img onclick="ash24()" id="sur2_4" src="/img/HITOM.jpg" alt="" width="300px" height="350px">
+                <h3 id="at2">Spider Men</h3><h3 id="at2_2">Tobey Maguire</h3><h3 id="at2_3">Andrew Garfield</h3><h3 id="at2_4">Tom Holland</h3>
+            </div>
+            <div id="div1"><img onclick="ash3()" id="sur3" src="/img/HITHOR.png" alt="" width="300px" height="350px"><img onclick="ash33()" id="sur3_2" src="/img/HIHEMS.jpg" alt="" width="300px" height="350px">
+                <h3 id="at3">THOR</h3><h3 id="at3_2">CHRIS HEMSWORTH</h3>
+            </div>
+            <div id="div1"><img onclick="ash4()" id="sur4" src="/img/HICAPP.png" alt="" width="300px" height="350px"><img onclick="ash44()" id="sur4_2" src="/img/HIEVANS.jpg" alt="" width="300px" height="350px">
+                <h3 id="at4">Captain America</h3><h3 id="at4_2">Chris Hemsworth</h3>
+            </div>
+            
+       </div>
+       <div id="floor1">
+        <div id="div1"><img onclick="ekk1()" id="surr1" src="/img/HIWODOW.jpg" alt="" width="300px" height="350px"><img onclick="ekk11()" id="surr1_2" src="/img/HISCARLET.jpg" alt="" width="300px" height="350px">
+            <h3 id="att1">Black Widow</h3><h3 id="att1_2">Scarlett Johansson</h3>
+        </div>
+        <div id="div1"><img onclick="ekk2()" id="surr2" src="/img/HIANT.jpg" alt="" width="300px" height="350px"><img onclick="ekk22()" id="surr2_2" src="/img/HISCOTT.png" alt="" width="300px" height="350px">
+            <h3 id="att2">Ant Man</h3><h3 id="att2_2">Scott Lang</h3>
+        </div>
+        <div id="div1"><img onclick="ekk3()" id="surr3" src="/img/HIHULK.jpg" alt="" width="300px" height="350px"><img onclick="ekk33()" id="surr3_2" src="/img/HIRUFFALO.jpg" alt="" width="300px" height="350px">
+            <h3 id="att3">Hulk</h3><h3 id="att3_2">Mark Ruffalo</h3>
+        </div>
+        <div id="div1"><img onclick="ekk4()" id="surr4" src="/img/HIARROW.jpeg" alt="" width="300px" height="350px"><img onclick="ekk44()" id="surr4_2" src="/img/HIRENNER.jpg.crdownload" alt="" width="300px" height="350px">
+            <h3 id="att4">hawkeye</h3><h3 id="att4_2">Jeremy Renner</h3>
+        </div>
+   </div>
+   <div id="floor1">
+    <div id="div1"><img onclick="ush1()" id="ssur1" src="/img/HIPANTHER.jpg" alt="" width="300px" height="350px"><img onclick="ush11()" id="ssur1_2" src="/img/HICHAdwick.jpg" alt="" width="300px" height="350px">
+        <h3 id="aat1">Black Panther</h3><h3 id="aat1_2">Chadwick Boseman</h3>
+    </div>
+    <div id="div1"><img onclick="ush2()" id="ssur2" src="/img/HIVision.jpg" alt="" width="300px" height="350px"><img onclick="ush22()" id="ssur2_2" src="/img/HIPOL.webp" alt="" width="300px" height="350px">
+        <h3 id="aat2">Vision</h3><h3 id="aat2_2">Pol Bettani</h3>
+    </div>
+    <div id="div1"><img onclick="ush3()" id="ssur3" src="/img/HIGROOT.jpeg" alt="" width="300px" height="350px"><img onclick="ush33()" id="ssur3_2" src="/img/HIVIN._V1_SY600_CR30" alt="" width="300px" height="350px">
+        <h3 id="aat3">Groot</h3><h3 id="aat3_2">Vin Disel</h3>
+    </div>
+    <div id="div1"><img onclick="ush4()" id="ssur4" src="/img/HIGAMORA.jpg" alt="" width="300px" height="350px"><img onclick="ush44()" id="ssur4_2" src="/img/HIZOI.jpg.crdownload" alt="" width="300px" height="350px">
+        <h3 id="aat4">Gamora</h3><h3 id="aat4_2">Zoi Saldana</h3>
+    </div>
+</div>
+<div id="floor1">
+    <div id="div1"><img onclick="tor1()" id="su1" src="/img/HISTRAN.jpg" alt="" width="300px" height="350px"><img onclick="tor11()" id="su1_2" src="/img/HICUM.jpg" alt="" width="300px" height="350px">
+        <h3 id="ata1">Doctor Strange</h3><h3 id="ata1_2">Benedict Cumberbatch</h3>
+    </div>
+    <div id="div1"><img onclick="tor2()" id="su2" src="/img/HINICK.webp" alt="" width="300px" height="350px"><img onclick="tor22()" id="su2_2" src="/img/HISAM.jpg" alt="" width="300px" height="350px">
+        <h3 id="ata2">Nick Fury</h3><h3 id="ata2_2">Samuel Jackson</h3>
+    </div>
+    <div id="div1"><img onclick="tor3()" id="su3" src="/img/HILOKI.webp" alt="" width="300px" height="350px"><img onclick="tor33()" id="su3_2" src="/img/HIHID.jfif" alt="" width="300px" height="350px">
+        <h3 id="ata3">Loki</h3><h3 id="ata3_2">Tom Hiddleston</h3>
+    </div>
+    <div id="div1"><img onclick="tor4()" id="su4" src="/img/HILORD.jpg" alt="" width="300px" height="350px"><img onclick="tor44()" id="su4_2" src="/img/HIPRAT.jpg" alt="" width="300px" height="350px">
+        <h3 id="ata4">Star Lord</h3><h3 id="ata4_2">Chris Pratt</h3>
+    </div>
+</div>
+    </div>
+    <script type="text/javascript" src = "/newsSCR.js"></script>
+
 </body>
 </html>
