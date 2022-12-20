@@ -978,4 +978,31 @@ margin-right: 8%;
         width: 15%;
     }
 
+
+}
+
+@media(max-width:360px){
+    #choice{
+        padding-top: 60%;
+        padding-left: 45%;
+        width: 180%;
+        font-size: 40px;
+    }
+    #last{
+        width: 370%;
+
+    }
+    #ast{
+        display: none;
+        justify-content: space-between;
+        margin-left: 50%;
+    }
+    
+
+}
+
+@media(max-width:360px){
+    #jj{
+        margin-left: 3%;
+    }
 }
