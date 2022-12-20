@@ -250,11 +250,6 @@ creatAc.addEventListener('click', ()=>{
     regaR.classList.remove('active');
 })
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> c7bb0a944f9707dc0a06d98fe0fe62a75c4dbf58
 function game(){
     document.getElementsByTagName("html").style.backgroundColor ="black";
 
@@ -624,7 +619,7 @@ function sld(element){
     $(x).hide(1000);
     count -=1;
     
-    if(count ==0 ){
+    if(count == 0 ){
         $('#kino').hide(500);
     }
 }
