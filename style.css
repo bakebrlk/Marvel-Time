@@ -853,6 +853,13 @@ margin-right: 8%;
         font-size: 100%;
         color: aliceblue;
     }
+    .v{
+        height: 23%;
+    }
+    .bottom{
+        margin-top: 500px;
+    }
+
 }
 
 @media screen and (width: 820px) {
@@ -912,5 +919,11 @@ margin-right: 8%;
     #comic2{
         background-color:rgb(97, 127, 245);
     }
+    .v{
+        height: 35%;
+    }
 
+    .bottom{
+        margin-top: 490px;
+    }
 }
