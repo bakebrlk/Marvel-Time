@@ -280,3 +280,635 @@ p{
 a{
     text-decoration: none;
 }
+.fp{
+    display: flex;
+    justify-content: center;
+}
+
+.fp > img{
+    margin-top: 6%;
+   width: 100%;
+   height: 140%;
+}
+.ui{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ui > div > h1{
+    text-align: center;
+    font-size: 350%
+}
+
+.hj{
+    width: 100%;
+    height: 60%;
+    background-color: darkred;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+#kino{
+    width: 100%;
+    height: 60%;
+    display: none;
+}
+#m1k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m1b.png);
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#m1k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m1k > div > img{
+    margin-left: 9%;
+}
+
+#m2k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m2b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m2k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m2k > div > img{
+    margin-left: 9%;
+}
+
+#m3k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m3b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m3k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m3k > div > img{
+    margin-left: 9%;
+}
+
+#m4k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m4b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m4k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m4k > div > img{
+    margin-left: 9%;
+}
+
+#m5k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m5b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m5k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m5k > div > img{
+    margin-left: 9%;
+}
+
+#m6k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m6b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m6k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m6k > div > img{
+    margin-left: 9%;
+}
+
+#m7k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m7b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m7k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m7k > div > img{
+    margin-left: 9%;
+}
+
+#m8k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m8b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m8k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m8k > div > img{
+    margin-left: 9%;
+}
+
+#m9k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m9b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m9k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m9k > div > img{
+    margin-left: 9%;
+}
+
+#m10k{
+    margin-left: 1%;
+    width: 98%;
+    height: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: solid;
+    display: none;
+    background-image: url(img/m10b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1%;
+}
+
+#m10k > div{
+    width: 45%;
+    margin-left: 10%;
+}
+#m10k > div > img{
+    margin-left: 9%;
+}
+#iok{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+#iok > img{
+    width: 90%;
+    height: 100%;
+}
+
+#ior{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#ior> div{
+    width: 70%;
+    height: 100%;
+}
+
+#ior >div> h1,h3{
+    text-align: center;
+}
+
+#comic1{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/combac1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#comic1 > div{
+    width: 50%;
+    height: 80%;
+    margin-right: 2%;
+}
+#jklo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#cms1{
+    width: 400px;
+    height: 420px;
+}
+#comic1 > div > h1{
+    color: gold;
+}
+#comic1 > div > h2{
+    color:brown;
+}
+
+#comic2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/commic2bac.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 2%;
+}
+
+#comic2 > div{
+width: 50%;
+height: 70%;
+margin-right: 8%;
+}
+
+#comic2 > div > h1,h2,h3{
+    text-align: center;
+    
+}
+
+#ghf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#comic2 > div > h1{
+    color: gold;
+}
+#comic2 > div > h2{
+    color: brown;
+}
+
+#comic3{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/commbac3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 2%;
+}
+
+#comic3 > div{
+    width: 50%;
+    height: 70%;
+    margin-right: 8%;
+}
+
+#imgccc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgccc > img{
+    width: 300px;
+    height: 400px;
+}
+
+#comic3 > div > h1{
+    color: gold;
+    text-align: center;
+}
+
+#comic3 > div > h3{
+    color: brown;
+    font-size: 150%;
+}
+
+#comic3 > div > a{
+    font-size: 130%;
+    color:black;
+}
+
+@media screen and (max-width: 412px){
+    #jj{
+        width: 270%;
+    }
+
+    .navbutton1{
+        margin-left: 60px;
+        width: 80px;
+    }
+
+    #img1{
+        width: 60px;
+        padding-left: 0;
+    }
+
+    #jj > div > a, h2{
+        font-size: 90%;
+    }
+
+    #kk{
+        display: flex;
+        justify-content: start;
+    }
+    #kk > div {
+        width: 30px;
+    }
+    #kk > div > a{
+        width: 30px;
+    }
+    #kk > div >a > h2{
+        width: 30px;
+    }
+
+    .fp{
+        height: 25%;
+    }
+
+    #fpa > div > h1{
+        text-align: center;
+    }
+
+    #imge1{
+        width: 140px;
+        height: 100%;
+    }
+
+    .gg > div >h1{
+        font-size: 55%;
+    }
+    .gg > div >h2{
+        font-size: 55%;
+    }
+    .gg > div >h3{
+        font-size: 55%;
+    }
+    .gg > div >p{
+        font-size: 55%;
+    }
+    #img2{
+        width: 140px;
+        height: 100%;
+    }
+
+    #img3{
+        width: 140px;
+        height: 100%;
+    }
+
+    .gameInfo {
+        height: 700px;
+    }
+
+    .bottom{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom > div > img{
+        margin-top: 15px;
+        width: 90px;
+        height: 60px;
+    }
+
+    .bottom >div{
+        width: 30%;
+        height: 90%;
+    }
+    .bottom > div > h3{
+        font-size: 10px;
+    }
+
+    #comic1{
+        height: 40%;
+        background-color: black;
+    }
+
+    #cms1{
+        width: 130px;
+        height: 190px;
+        margin-top: 20px;
+    }
+
+    #comic1 > div > h1{
+        font-size: 100%;
+    }
+    #comic1 > div > h2{
+        font-size: 100%;
+        height: 50%;
+    }
+
+    #comic2{
+        height: 50%;
+    }
+
+    #ghf > img{
+        width: 200px;
+        height: 320px;
+    }
+
+    #comic2 > div > h1{
+        font-size: 100%;
+    }
+
+    #comic3{
+        height: 50%;
+    }
+
+    #imgccc > img{
+        width: 200px;
+        height: 300px;
+    }
+
+    #comic3 > div > h1{
+        font-size: 100%;
+        color: black;
+        background-color: aliceblue;
+    }
+
+    #comic3 > div > h3{
+        font-size: 100%;
+        color: aliceblue;
+    }
+}
+
+@media screen and (width: 820px) {
+    #jj{
+        width: 340%;
+    }
+
+    .navbutton1{
+        width: 140px;
+        margin-left: 95px;
+    }
+    #img1{
+        width: 120px;
+    }
+
+    #kk{
+        display: flex;
+        justify-content: center;
+    }
+
+    #kk > div{
+        width: 100px;
+    }
+
+    #fpa > div > h1{
+        text-align: center;
+    }
+
+    .gameInfo {
+        height: 1500px;
+    }
+
+    .gg > div > h1{
+        font-size: 130%;
+        width: 200px;
+    }
+    .gg > div > h2{
+        font-size: 70%;
+    }
+    .gg > div > h3{
+        font-size: 80%;
+    }
+    .gg > div > p{
+        font-size: 80%;
+    }
+
+    #comic1{
+        background-color: black;
+    }
+
+    #cms1{
+        margin-top: 50px;
+    }
+
+    #comic2{
+        background-color:rgb(97, 127, 245);
+    }
+
+}
