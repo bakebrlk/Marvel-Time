@@ -60,8 +60,11 @@ nav{
     height: 60%;
     display: flex;
     justify-content: end;
+    
 }
-
+#dddd{
+    cursor: pointer;
+}
 #kk > div{
     width: 20%;
     display: flex;
@@ -110,6 +113,7 @@ a:hover > h2{
 
 .reg{
     margin: 0;
+    margin-left: 50%;
     width:  80%;
     height: 70%;
     display: flex;
@@ -117,6 +121,25 @@ a:hover > h2{
     position: absolute;
     margin-bottom: 8%;
     
+}
+.reg.active{
+
+    display: block;
+}
+.reg2{
+    margin: 0;
+    margin-left: 50%;
+    width:  80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 8%;
+    
+}
+.reg2.active{
+
+    display: block;
 }
 .container{
     background-color: white;
@@ -130,6 +153,7 @@ a:hover > h2{
 #z{
     display: flex;
     justify-content: end;
+
 }
 
 #z > h2{
@@ -152,6 +176,16 @@ a:hover > h2{
     height: 70%;
     margin: 0;
     background-color: white;
+    
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+    
 }
 
 input{
