@@ -228,14 +228,35 @@ function twitter(){
 
 }
 
-function reg(){
-    document.getElementsByClassName("reg")[0].style.display = "flex";
+function changeName(){
+    var x=document.getElementById('email').value;
+    document.getElementById('idname').innerHTML=x;
+  
+    
 }
+
+const openRega=document.getElementById('dddd');
+const closeRega=document.getElementById('closeBB');
+const regaR= document.getElementById('reg');
+const creatAc=document.getElementById('submit');
+openRega.addEventListener('click', function(e){
+    e.preventDefault();
+    regaR.classList.add('active');
+})
+closeRega.addEventListener('click', ()=>{
+    regaR.classList.remove('active');
+})
+creatAc.addEventListener('click', ()=>{
+    regaR.classList.remove('active');
+})
+
+
 
 function game(){
     document.getElementsByTagName("html").style.backgroundColor ="black";
 
 }
+
 function ash1(){
     $("#sur1_2").hide(0);
     $("#sur1").hide(1000);
@@ -575,3 +596,42 @@ function tor44(){
     $('#ata4').show(1000);
 
 }
+
+
+function ani(element){
+    var x = "#"+ element;
+    $(x).animate({
+
+        width: "+=25px", height: "+=25px"
+    },"slow");
+
+}
+
+function an(element){
+    var x = "#" +element;
+    $(x).animate({
+        width: "-=25px", height: "-=25px"
+    },"slow");
+}
+
+var count = 0;
+
+function sld(element){
+    var x = '#' + element;
+    $(x).hide(1000);
+    count -=1;
+    
+    if(count ==0 ){
+        $('#kino').hide(500);
+    }
+}
+
+function sls(element){
+    document.getElementById('kino').style.display = "block";
+    document.getElementById(element).style.display = "flex";
+    var x = '#' + element;
+    $(x).hide(0);
+    $(x).show(900);
+    count += 1;
+}
+
