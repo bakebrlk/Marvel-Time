@@ -236,16 +236,16 @@ const openRega=document.getElementById('dddd');
 const closeRega=document.getElementById('closeBB');
 const regaR= document.getElementById('reg');
 const creatAc=document.getElementById('submit');
-// openRega.addEventListener('click', function(e){
-//     e.preventDefault();
-//     regaR.classList.add('active');
-// })
-// closeRega.addEventListener('click', ()=>{
-//     regaR.classList.remove('active');
-// })
-// creatAc.addEventListener('click', ()=>{
-//     regaR.classList.remove('active');
-// })
+openRega.addEventListener('click', function(e){
+    e.preventDefault();
+    regaR.classList.add('active');
+})
+closeRega.addEventListener('click', ()=>{
+    regaR.classList.remove('active');
+})
+creatAc.addEventListener('click', ()=>{
+    regaR.classList.remove('active');
+})
 
 
 
